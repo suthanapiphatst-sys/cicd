@@ -1,34 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StreamLine | Premium Video Content</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CI/CD Deployment Test</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      color: #fff;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      max-width: 500px;
+    }
+    h1 {
+      color: #4ade80;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+    .badge {
+      display: inline-block;
+      background: #22c55e;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+  </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">TNI <span>Cloud Computing</span></div>
-        <div class="nav-links">
-            <a href="#" class="active">Discover</a>
-            <a href="#">Categories</a>
-            <a href="#">My List</a>
-        </div>
-        <div class="profile-btn">Sign In</div>
-    </nav>
-
-    <header class="hero">
-        <div class="hero-content">
-            <h1>CI/CD Workflows - Version 2.0</h1>
-            <p>Updated automatically via GitHub Actions by Thavin Suwanklang (Live Demo)</p>
-            <button class="play-btn">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                    <path d="M8 5v14l11-7z"/>
-                </svg>
-                Deployed Successfully
-            </button>
-        </div>
-    </header>
+  <div class="card">
+    <h1>🚀 CI/CD Pipeline Success!</h1>
+    <p>ระบบ Deploy อัตโนมัติจาก GitHub Actions ไปยัง GCP VM สำเร็จเรียบร้อยแล้ว</p>
+    <div class="badge">Version 2.0 (Updated via CI/CD)</div>
+  </div>
 </body>
 </html>
